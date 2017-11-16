@@ -46,7 +46,7 @@ This will be the source code for a website that shows off my code abilities usin
     
 ## Development Plan
 
-### Stage 1) Devbox setup
+### Stage 0) Devbox setup
 This stage will be setting up a computer to develop on.
 
 - [x] Install the OS
@@ -61,4 +61,18 @@ This stage will be setting up a computer to develop on.
 - [x] Make a website virtualenv
 - [x] Make a docs virtualenv
 
-  
+### Stage 1) Devops for Devbox
+This stage will commit all the needed setup from stage 0 to code.
+
+- [x] Create a setup.py file to install the devops packages
+- [x] Create an installer script for devops that handles the installation of external dependencies
+- [x] Create Ansible roles for the needed global packages
+  - [x] Python3.6
+  - [x] YAPF
+  - [x] Pylint
+  - [x] Coverage
+  - [x] virtualenvmanager
+- [x] *Optional* Create Roles for personal settings
+- [x] Create a playbook for applying the roles to the localhost
+- [x] Run the playbook against the localhost to confirm setup
+- [x] Create a README.md for devops specific information
