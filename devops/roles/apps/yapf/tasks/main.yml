@@ -1,0 +1,5 @@
+---
+- name: Install YAPF
+  pip:
+    name: yapf
+    state: present

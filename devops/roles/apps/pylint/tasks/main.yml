@@ -1,0 +1,5 @@
+---
+- name: Install Pylint
+  pip:
+    name: pylint
+    state: present

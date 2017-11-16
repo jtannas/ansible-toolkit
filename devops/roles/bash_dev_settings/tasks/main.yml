@@ -1,0 +1,10 @@
+---
+- name: Copy over the bash files
+  copy:
+    src: "home/{{ item }}"
+    dest: "{{ ansible_env.HOME }}/{{ item }}"
+    backup: yes
+    force: yes
+  with_items:
+    - .bashrc
+    - .bash_aliases

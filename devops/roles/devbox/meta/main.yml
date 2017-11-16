@@ -1,0 +1,8 @@
+---
+dependencies:
+ - apps/pylint
+ - apps/python36
+ - apps/sublime
+ - apps/virtualenvwrapper
+ - apps/yapf
+ - bash_dev_settings

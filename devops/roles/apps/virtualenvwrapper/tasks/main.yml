@@ -1,0 +1,18 @@
+---
+- name: Install virtualenvwrapper
+  pip:
+    name: virtualenvwrapper
+    state: present
+
+- name: Make sure the bashrc has the correct commands
+  blockinfile:
+    dest: "{{ ansible_env.HOME }}/.bashrc"
+    block: |
+      # Virtualenvwrapper Setup
+      export WORKON_HOME=$HOME/.virtualenvs
+      export PROJECT_HOME=$HOME
+      source /usr/local/bin/virtualenvwrapper.sh
+
+    marker: '# {mark} ANSIBLE MANAGED BLOCK - virtualenvwrapper'
+    insertafter: EOF
+    create: yes

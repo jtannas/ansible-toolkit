@@ -1,0 +1,5 @@
+---
+- name: Install the Python3.6 Package
+  package:
+    name: python3.6
+    state: present

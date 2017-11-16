@@ -1,0 +1,4 @@
+---
+dependencies:
+ - apps/python36
+ - bash_dev_settings
