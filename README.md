@@ -35,6 +35,7 @@ This will be the source code for a website that shows off my code abilities usin
       - Extensions:
         - Sphinx-Autodoc
         - Sphinx-Apidoc
+  - Continuous Integration: Circle CI (if applicable)
 - Frontend:
   - Template: Bootstrap/Bootswatch (Lux) https://bootswatch.com/lux/
   - HTML Version: 5
@@ -48,16 +49,16 @@ This will be the source code for a website that shows off my code abilities usin
 ### Stage 1) Devbox setup
 This stage will be setting up a computer to develop on.
 
-[x] Install the OS
-[x] Configure it to personal liking (.bashrc, code editor, browser, etc...)
-[x] Create project directory & subdirectories
-[x] Install Python 3.6.1 globally
-[x] Install Pylint globally
-[x] Install YAPF globally
-[x] Install Coverage globally
-[x] Install virtualenvmanager globally (including the updated .bashrc)
-[x] Make a devops virtualenv ```$ mkvirtualenv -a `pwd` --python=`which python3.6` devops```
-[x] Make a website virtualenv
-[x] Make a docs virtualenv
+- [x] Install the OS
+- [x] Configure it to personal liking (.bashrc, code editor, browser, etc...)
+- [x] Create project directory & subdirectories
+- [x] Install Python 3.6.1 globally
+- [x] Install Pylint globally
+- [x] Install YAPF globally
+- [x] Install Coverage globally
+- [x] Install virtualenvmanager globally (including the updated .bashrc)
+- [x] Make a devops virtualenv ```$ mkvirtualenv -a `pwd` --python=`which python3.6` devops```
+- [x] Make a website virtualenv
+- [x] Make a docs virtualenv
 
   
