@@ -1,7 +1,17 @@
-# Portfolio of Joel Tannas
+# README
 
-Current status: Planning Stage
+This repo is my toolkit of ansible roles and examples. It is not aimed at any specific project,
+ rather it is for generically useful scripts. A side effect is I will also be using it for setting
+ up dev machines. It is my go-to 'I broke my machine and need to reinstall everything' repo.
 
-This will be the source code for a website that shows off my code abilities using javascript and using links to my Github projects.
+## Getting started
+Run the bash script that sets up the dependencies for Ansible and installs it.
 
-Further information will be hosted in the docs section, and eventually on ReadTheDocs.
+```
+$ sudo installers/XUbuntu_1704.sh
+```
+
+
+## Running Playbooks
+
+- Simple playbook on local machine: ```$ ansible-playbook -i hosts /path/to/playbook.yml```

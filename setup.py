@@ -18,16 +18,13 @@ def read(fname):
 
 
 setup(
-    name='portfolio-docs',
+    name='portfolio-devops',
     version='0.0.1',
     description='Ansible based Devops',
     long_description=read('README.md'),
     author='Joel Tannas',
     author_email='jtannas@gmail.com',
-    url='https://github.com/jtannas',
-    install_requires=['sphinx', ],
-    extras_require={'dev': [
-        'sphinx-autobuild',
-        'sphinx_rtd_theme',
-    ], },
+    url='https://github.com/jtannas/ansible-toolkit',
+    packages=['roles', ],
+    install_requires=['ansible', ],
 )
